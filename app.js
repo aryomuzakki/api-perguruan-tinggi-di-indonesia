@@ -4,6 +4,7 @@ const cors = require("cors");
 const schema = require("./schema");
 const convertRawToJson = require("./data/raw/rawToJson");
 
+const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(cors());
@@ -37,6 +38,6 @@ app.get("/", (req, res, next) => {
   `);
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("server started");
 });
