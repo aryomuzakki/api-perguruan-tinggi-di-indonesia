@@ -1,0 +1,22 @@
+{
+  "name": "api-perguruan-tinggi-di-indonesia",
+  "version": "1.0.0",
+  "description": "GraphQL API untuk data Perguruan Tinggi di Indonesia berdasarkan data dari Pangkalan Data Pendidikan Tinggi (PDDikti)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Muhammad Aryo Muzakki",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.7.2",
+    "lodash": "^4.17.21",
+    "xlsx": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
